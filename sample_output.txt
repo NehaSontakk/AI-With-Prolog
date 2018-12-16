@@ -1,0 +1,24 @@
+?- learns(neha,X).      #our query
+X = physics ;
+X = math ;
+X = chemistry ;
+X = mechanics ;
+X = ai ;
+X = ml ;
+X = prolog.
+
+?- hates(neha,X).
+X = discrete_math ;
+X = advanced_ds.
+
+?- learns(neha,physics).
+true ;
+false.
+
+?- hates(neha,discrete_math).
+true.
+
+?- learns(neha,discrete_math).
+false.
+
+?- 
