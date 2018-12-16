@@ -1,4 +1,4 @@
-?- learns(neha,X).      #our query
+?- learns(neha,X).      # our sample queries
 X = physics ;
 X = math ;
 X = chemistry ;
