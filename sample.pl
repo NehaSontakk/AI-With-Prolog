@@ -21,3 +21,10 @@ yearthree(advanced_ds).
 
 four(ai).
 four(ml).
+
+
+/**operators used :
+:- if
+, and
+; or
+*/
