@@ -6,10 +6,11 @@ minimum(X,Y,Y) :- X>=Y.
 maximum(X,Y,X) :- X>Y.
 maximum(X,Y,Y) :- Y>=X.
 
-% C is the expected answer and is true if it follows the rule
-andgate(A,B,C) :- A*B=C,C=1.
-
-orgate(A,B,C) :- A*B=C,C=0.
+% Facts for and, or gate.
+and(1,1).
+or(0,1).
+or(1,0).
+or(1,1).
 
 notgate(X) :- X is 1, write('0').
 notgate(X) :- X is 0, write('1').
