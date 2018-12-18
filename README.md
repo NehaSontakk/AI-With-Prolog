@@ -17,3 +17,9 @@ or
 
 swipl
 [code]
+
+# Sample Program
+Writing functions in prolog.
+
+# Basic Program
+Minimum,maximum,declarative logic gates.
