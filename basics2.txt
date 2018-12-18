@@ -1,0 +1,33 @@
+
+?- minimum(1,2,2).
+false.
+
+?- minimum(1,2,1).
+true .
+
+?- minimum(2,1,1).
+true.
+
+?- maximum(1,2,2).
+true.
+
+?- nand(1,1).
+false.
+
+?- nand(0,1).
+true.
+
+?- nand(1,0).
+true.
+
+?- nor(0,0).
+true.
+
+?- nor(1,0).
+false.
+
+?- and(1,1).
+true.
+
+?- 
+
