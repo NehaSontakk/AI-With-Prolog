@@ -25,3 +25,4 @@ Writing functions in prolog.
 Minimum,maximum,declarative logic gates.
 
 ###### Recursion Program
+Factorial, Tail factorial, Fibonacci
