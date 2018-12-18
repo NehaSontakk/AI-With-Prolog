@@ -25,7 +25,6 @@ fib(F,N) :-
     fib(F2,N2),
     F is F1+F2,
     write(F).
-    write(',')
 
 
    
